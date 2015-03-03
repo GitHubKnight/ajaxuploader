@@ -1,0 +1,22 @@
+{
+  "name": "ajaxuploader",
+  "version": "1.0.0",
+  "description": "An unofficial clone of http://valums.com/ajax-upload",
+  "main": "ajaxuploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/limdauto/ajaxuploader.git"
+  },
+  "keywords": [
+    "ajaxuploader"
+  ],
+  "author": "Andris Valums",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/limdauto/ajaxuploader/issues"
+  },
+  "homepage": "https://github.com/limdauto/ajaxuploader"
+}
