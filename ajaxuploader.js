@@ -631,7 +631,11 @@
                         }
 
                         if (response) {
-                            response = eval("(" + response + ")");
+                            try {
+                                response = eval("(" + response + ")");
+                            } catch (err) {
+                                response.success = false;
+                            }
                         } else {
                             response = {};
                         }
